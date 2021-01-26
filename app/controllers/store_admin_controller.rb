@@ -4,6 +4,11 @@ class StoreAdminController < ApplicationController
 
   end
 
+  def orders
+    render :layout => "oredr_administration"
+
+  end
+
   def invoice
 
   end
